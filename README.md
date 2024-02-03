@@ -3,13 +3,17 @@ Understand Go's concurrency with this comprehensive series by Salman Shah, avail
 
 This project delves into the intricacies of Go's concurrency model, demonstrating various synchronization techniques to ensure data consistency in multi-threaded environments. It's designed to solidify your understanding of concepts like goroutines, mutexes, RWMutexes, and WaitGroups.
 
-**Project Structure**
+# Project Structure
 
+## Week 1
 - **01-no-locks:** Explores the consequences of concurrent access without synchronization.
     - **no-wg:** Showcases race conditions without WaitGroups.
     - **wg:** Introduces WaitGroups for goroutine coordination, but race conditions persist.
 - **02-mutex:** Demonstrates resolving race conditions using mutexes for exclusive access.
 - **03-rwmutex:** Explores RWMutex for optimized performance in read-heavy scenarios.
+
+## Week 2
+- 
 
 **Prerequisites**
 
